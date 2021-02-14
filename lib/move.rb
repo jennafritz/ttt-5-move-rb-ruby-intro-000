@@ -13,9 +13,6 @@ end
 
 def move(board, position, character = "X")
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  position = "#{board[converted_input]}"
-  def update_array_at_with(board, position, value)
-    "#{board[position]}" = value
-  end
+  board[converted_input] = character
   display_board
 end
